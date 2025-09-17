@@ -1,0 +1,210 @@
+*{
+    box-sizing: 0;
+    padding: 0;
+}
+.head{
+    display: flex;
+    justify-content: space-between;
+}
+header{
+    background-color: rgb(235, 44, 108);
+    height: 6rem;
+    position: sticky;
+    top: 0;
+}
+.navlinks{
+    justify-content: space-between;
+
+}
+a{
+    text-decoration: none;
+    margin-left: 2rem;
+    color: white;
+    transition: 3ms ease;
+    position: relative;
+}
+a:after{
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 2px;
+    background-color: white;
+    transform: scaleX(0);
+    transform-origin: left;
+    transition: transform 0.3s ease;
+}
+a:hover::after{
+    transform: scaleX(1);
+}
+nav{
+    margin-top: 2rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
+.logo{
+    margin-top: 2rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    font-size: 2rem;
+}
+.cont1{
+    background-image: url(images/img1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 80vh;
+    margin-top: 0;
+}
+.head1{
+    color: white;
+    text-align: center;
+    
+}
+h1{
+    font-size: 6rem;
+    margin-top: 0rem;
+}
+.cont2{
+    margin-top: 2rem;
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+}
+.card1{
+    background-color:  rgb(235, 44, 108);
+    height: 25rem;
+    width: 22rem; 
+    margin-top: rem;
+    margin-left: 3rem;
+    border-radius: 1rem;
+    
+}
+.book{
+    height: 10rem;
+    margin-left: 2rem;
+    margin-top: 2rem;
+    border-radius: 1rem;
+}
+.card2{
+    background-color:  rgb(235, 44, 108);
+    height: 25rem;
+    width: 22rem; 
+    margin-top: rem;
+    margin-left: 3rem;
+    border-radius: 1rem;
+}
+.idea{
+    height: 10rem;
+    margin-left: 2rem;
+    margin-top: 2rem;
+    border-radius: 1rem;
+    width: 18rem;
+} 
+.card3{
+    background-color:  rgb(235, 44, 108);
+    height: 25rem;
+    width: 22rem; 
+    margin-top: rem;
+    margin-left: 3rem;
+    border-radius: 1rem;
+}
+.social{
+    height: 10rem;
+    margin-left: 2rem;
+    margin-top: 2rem;
+    border-radius: 1rem;
+    width: 18rem;
+} 
+.head5{
+    text-align: center;
+    color: white;
+    font-size: 1rem;
+}
+.pa{
+    margin: 2rem;
+}
+.btn{
+    color: black;
+    background-color: white;
+    margin-left: 7rem;
+    padding: 0.5rem 1rem;
+    margin-top: -2rem;
+    border-radius: 1rem;
+    
+}
+.btn:hover{
+    background-color: black;
+    color: white;
+    transform: scaleX(9);
+    transition: 1000ms ease;
+    transform: rotate(360deg);
+}
+.cont4{
+    background-color: wheat;
+    margin-top: 2rem;
+}
+.cont4{
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+.princi{
+    height: 22rem;
+    width: 32rem;
+    margin-left: 2rem;
+    border-radius: 40rem;
+    margin-top: 2rem;
+}
+.h3a{
+    font-size: 3rem;
+    color: rgb(235, 44, 108);
+    text-align: center;
+}
+.pb{
+    color: grey;
+    font-size: 2rem;
+    margin: 2rem;
+}
+.cont5{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    background-color: wheat;
+}
+.headm{
+    height: 22rem;
+    width: 32rem;
+    margin-left: 2rem;
+    border-radius: 40rem;
+    margin-top: 2rem;
+}
+footer{
+    background-color: black;
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+}
+.h3b{
+    color: white;
+}
+.pc{
+    color: white;
+    font-size: 2rem;
+    margin: 2rem;
+}
+.navlinks1{
+    display: block;
+}
+.a1{
+    color: black;
+    
+}
+.a1:hover{
+    color: white;
+}
+.divc{
+    margin-top: 2rem;
+}
+.email{
+    font-size: 2rem;
+}
+.tel{
+    font-size: 2rem;
+}
