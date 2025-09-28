@@ -1,0 +1,59 @@
+.log{
+    font-size: 2rem;
+    margin: 3rem 6rem;
+}
+.head1{
+    display: flex;
+    background-color: rgb(1, 1, 48);
+    color: white;
+    height: 3rem;
+}
+.head1a{
+    margin-left: 4rem;
+    margin-right: 1rem;
+    margin-top: 1rem;
+}
+.head1b{
+    margin-left: 1rem;
+    margin-top: 1rem;
+}
+
+.head1c{
+    margin-left: 35rem;
+    margin-right: 2rem;
+    margin-top: 1rem;
+}
+.head1d{
+    margin-right: 2rem;
+    margin-left: 2rem;
+    margin-top: 1rem;
+}
+.head2{
+    display: flex;
+}
+.head2b{
+    margin-left: 15rem;
+    margin-top: 1.5rem;
+}
+.head2c{
+    margin-top: 0.5rem;
+    margin-left: 7rem;
+    
+}
+a{
+    text-decoration: none;
+    margin-left: 4rem;
+}
+.btn{
+    background-color: blue;
+    color: white;
+    padding: 1rem 2rem;
+    border-radius: 1rem;
+}
+.logob{
+    margin-left: 3rem;
+}
+.form{
+    margin-left: 38rem;
+    margin-top: 10rem;
+}
