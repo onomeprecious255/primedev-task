@@ -1,7 +1,4 @@
-.log{
-    font-size: 2rem;
-    margin: 3rem 6rem;
-}
+
 .head1{
     display: flex;
     background-color: rgb(1, 1, 48);
@@ -30,8 +27,11 @@
 }
 .head2{
     display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
 }
-.head2b{
+/* .head2b{
     margin-left: 15rem;
     margin-top: 1.5rem;
 }
@@ -39,7 +39,7 @@
     margin-top: 0.5rem;
     margin-left: 7rem;
     
-}
+} */
 a{
     text-decoration: none;
     margin-left: 4rem;
@@ -50,10 +50,69 @@ a{
     padding: 1rem 2rem;
     border-radius: 1rem;
 }
-.logob{
-    margin-left: 3rem;
+.maincontainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    box-shadow:
+    0 16px 48px 0 rgba(30,30,60,0.28), 0 4px 16px 0 rgba(0,0,0,0.22);
+    background-color: white;
+    
+}
+.realcontainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 90vh;
+}
+
+.imgg{
+    background-color: rgb(214, 237, 245);
+    padding: 5rem 8rem;
+
 }
 .form{
-    margin-left: 38rem;
-    margin-top: 10rem;
+    padding: 5rem 8rem;
+    text-align: center;
+    
+    
+}
+.frm{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.container{
+    background-color: rgb(214, 237, 245);
+
+}
+input{
+    width: 25rem;
+    height: 2rem;
+    border-radius: 2px;
+    background-color: rgb(214, 237, 245) ;
+    border: 1px solid grey;
+    outline-style: none;
+    margin-top: 0.5rem;
+}
+.dropdown{
+    position: relative;
+}
+.dropdown:hover .hello{
+    display: flex;
+}
+
+.hello{
+    background-color: white;
+    color: lightblue;
+    height: 3rem;
+    width: 7rem;
+    border-radius: 10px;
+    text-align: center;
+    display: none;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+
 }
