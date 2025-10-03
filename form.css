@@ -116,3 +116,54 @@ input{
     position: absolute;
 
 }
+.dropdown2{
+    position: relative;
+}
+.dropdown2:hover .education {
+    display: flex;
+}
+.education{
+    background-color: white;
+    color: lightblue;
+    height: 3rem;
+    width: 7rem;
+    border-radius: 10px;
+    text-align: center;
+    display: none;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+}
+.studies{
+    background-color: white;
+    color: lightblue;
+    height: 3rem;
+    width: 7rem;
+    border-radius: 10px;
+    text-align: center;
+    display: none;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+}
+@media screen and (max-width:480px){
+    .maincontainer{
+        flex-direction: column;
+    
+    }
+    .navlinks{
+        display: none;
+    }
+    input{
+        width: 15rem;
+    }
+    .head1{
+        display: flex;
+        background-color: rgb(1, 1, 48);
+        color: white;
+        height: 3rem;
+        width: 25rem;
+    }
+    .container{
+        overflow: hidden;
+    }
