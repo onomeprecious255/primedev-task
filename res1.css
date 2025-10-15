@@ -106,7 +106,8 @@ body{
     font-size: 1.2rem;
 }
 .maincard1{
-    border: 2px solid grey;
+    border: 2px solid rgb(168, 166, 166);
+    border-radius: 1rem;
 }
 .maincardfirst{
     display: flex;
@@ -122,4 +123,141 @@ body{
 }
 .cont3{
     padding-left: 8rem;
+}
+
+.headmedia{
+    display: none;
+}
+.imagesgraphic{
+    padding-left: 2rem;
+}
+.maincardthird{
+    display: block;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding-top: 2rem;
+}
+.cont4btextandimg{
+    display: flex;
+    border: 2px solid rgb(212, 206, 206);
+    padding-left: 2rem;
+    justify-content: space-between;
+}
+.img4cflex{
+    display: flex;
+    padding-top: 1rem;
+}
+.img4cblock{
+    display: block;
+}
+.cont4first{
+    padding-left: 8rem;
+}
+.cont4second{
+    display: block;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    padding-top: 2rem;
+}
+.cont5imgone{
+    display: flex;
+}
+.cont5first{
+    padding-left: 8rem;
+}
+.cont5imgtwo{
+    padding-top: 1rem;
+    display: flex;
+}
+.imgandtextcont5{
+    display: block;
+    justify-content: center;
+    text-align: center;
+    padding-top: 2rem;
+}
+.lastsection{
+    display: block;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    padding-top: 1.5rem;
+}
+.p5{
+    color: grey;
+}
+.cont6span{
+    color: grey;
+}
+.generalcont{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.cont6{
+    padding: 2rem;
+}
+.section2{
+    background-color: #232529;
+}
+.h3a{
+    color: white;
+}
+.somuch{
+    color: grey;
+}
+.p6{
+    color: white;
+}
+.sectiontwoimgone{
+    width: 65rem;
+    padding-top: 3rem;
+}
+.h3a{
+    font-size: 3rem;
+    padding-top: 6rem;
+}
+.p6{
+    font-size: 1.5rem;
+}
+.contonesection2{
+    padding-left: 6rem;  
+}
+
+.contthreesec{
+    display: flex;
+}
+.imgsecthree{
+    width: 20rem;
+
+}
+.contotwosection2{
+    padding-left: 8rem;
+}
+.cta2{
+    height: 20rem;
+    width: 83rem;
+}
+.footer{
+    width: 83rem;
+}
+@media screen and (max-width: 480px) {
+    body{
+        background-color: white;
+    }
+    .head1m{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    header, .head1a{
+        display: none;
+    }
+    .motherdiv{
+        display: none;
+    }
+    .headdesktop{
+        display: none;
+    }
 }
