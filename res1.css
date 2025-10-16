@@ -246,7 +246,7 @@ body{
     body{
         background-color: white;
     }
-    .head1m{
+    .headmedia{
         display: flex;
         align-items: center;
         justify-content: space-between;
@@ -259,5 +259,8 @@ body{
     }
     .headdesktop{
         display: none;
+    }
+    .ham{
+        display: block;
     }
 }
