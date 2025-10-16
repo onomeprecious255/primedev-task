@@ -156,3 +156,13 @@ Hints:
 - Adjust font sizes and padding for better mobile experience
 - Stack elements vertically on smaller screens
 */
+
+@media screen and (max-width: 480px) {
+	.nav-links {
+		display: none;
+	}
+
+	.features-grid {
+		grid-template-columns: repeat(1, 1fr);
+	}
+}
