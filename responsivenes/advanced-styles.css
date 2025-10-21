@@ -396,6 +396,7 @@ footer {
 	}
 	.footer-grid {
 	display: flex;
+	flex-direction: column;
 	}
 	.foot1, .foot2{
 		display: flex;
