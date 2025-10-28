@@ -10,7 +10,7 @@ Consider:
 - Making grids adapt to wider screens
 - Ensuring content doesn't look cramped or stretched
 */
-
+ 
 * {
 	margin: 0;
 	padding: 0;
@@ -357,12 +357,66 @@ Example structure:
 @media (min-width: 768px) {
     // Tablet styles
 }
-
+*/
 @media (min-width: 1024px) {
-    // Desktop styles
+    body{
+		width: 100%;
+	}
+	/* .about-text p{
+		margin-bottom: 15px;
+		font-size: 14px;
+		line-height: ;
+		
+	} */
+	.tour-grid {
+		display: gr;
+		grid-template-columns: repeat(1, 1fr);
+		gap: 15px;
+	}
+	.tour-card {
+		background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+		padding: 20px;
+		border-radius: 12px;
+		color: white;
+		box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+		transition: transform 0.3s;
+		height: 10rem;
+		width: 30rem;
+	}
+	.tour-grid {
+		display: grid;
+		grid-template-columns: 50% 50%;
+		gap: 15px;
+		margin-left: 2rem;
+	}
+	.contact-form {
+		display: flex;
+		
+		
+		width: 30rem;
+	}
+	.nav-links {
+		display: flex;
+		list-style: none;
+		gap: 4rem;
+	}
+
+	.nav-links a {
+		color: white;
+		text-decoration: none;
+		font-size: 11px;
+		padding: 5px 8px;
+		border-radius: 4px;
+		transition: background 0.3s;
+	}
+	.footer-content {
+		display: grid;
+		grid-template-columns: 33% 33% 33%;
+		padding-left: 4rem;
+	}
 }
 
-Things to consider:
+/* Things to consider:
 1. Remove fixed width from body
 2. Increase font sizes appropriately
 3. Make grids multi-column
@@ -371,3 +425,5 @@ Things to consider:
 6. Use flexbox/grid for better layouts
 7. Consider max-width for content containers
 */
+
+
