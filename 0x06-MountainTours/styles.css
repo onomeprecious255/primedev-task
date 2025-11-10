@@ -16,6 +16,9 @@ Consider:
 	padding: 0;
 	box-sizing: border-box;
 }
+html{
+	scroll-behavior: smooth;
+}
 
 body {
 	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -362,12 +365,12 @@ Example structure:
     body{
 		width: 100%;
 	}
-	/* .about-text p{
+	.about-text p{
 		margin-bottom: 15px;
 		font-size: 14px;
-		line-height: ;
+		text-align: center;
 		
-	} */
+	}
 	.tour-grid {
 		display: gr;
 		grid-template-columns: repeat(1, 1fr);
